@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form - Part 1</title>
+</head>
+<body>
+    <form action="">
+        <label for="user_firstname">
+            FirstName:
+        </label>
+        <input
+            id="user_firstname"
+            type="text"
+            name="firstname"
+            placeholder="نام"
+            required
+        />
+
+        <br>
+
+        <label for="comment_text">
+            Your Comment:
+        </label>
+        <textarea
+            id="comment_text"
+            name="comment_text"
+            placeholder="متن کامنت..."
+            required></textarea>
+
+        <br>
+        
+        <button type="reset">پاک کردن فرم</button>
+        <button type="submit">ارسال کامنت</button>
+        <!--
+            <br>
+            <input type="reset" value="پاک کردن فرم">
+            <input type="submit" value="ارسال کامنت">
+        -->
+    </form>
+</body>
+</html>
