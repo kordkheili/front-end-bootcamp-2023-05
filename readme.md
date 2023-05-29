@@ -6,9 +6,10 @@
 
 ## References
 
-| website                                        | Description                              |
-| ---------------------------------------------- | ---------------------------------------- |
-| [w3schools.com](https://w3schools.com)         | منبع عالی برای آموزش html,css            |
-| [flaticon.com](https://flaticon.com)           | کلی آیکن رایگان به صورت عکس              |
-| [codepen.io](https://codepen.io)               | محبوب ترین سایت به اشتراک گذاری سورس کد  |
-| [frontendmentor.io](https://frontendmentor.io) | تمرین های عملی جهت تمرین بیشتر فرانت‌اند |
+| website                                                | Description                              |
+| ------------------------------------------------------ | ---------------------------------------- |
+| [w3schools.com](https://w3schools.com)                 | منبع عالی برای آموزش HTML, CSS           |
+| [developer.mozilla.org](https://developer.mozilla.org) | منبع عالی برای آموزش JavaScript          |
+| [flaticon.com](https://flaticon.com)                   | کلی آیکن رایگان به صورت عکس              |
+| [codepen.io](https://codepen.io)                       | محبوب ترین سایت به اشتراک گذاری سورس کد  |
+| [frontendmentor.io](https://frontendmentor.io)         | تمرین های عملی جهت تمرین بیشتر فرانت‌اند |
