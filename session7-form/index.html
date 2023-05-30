@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="login_form" method="post" action="https://google.com">
+        <!-- <input type="text" name="username" value="akbar" placeholder="نام کاربری" required readonly> -->
+        <input type="text" name="username1" value="asghar" placeholder="نام کاربری" required autofocus readonly>
+        <br>
+        <!-- <input type="text" name="username2" value="asghar"  placeholder="نام کاربری" required autofocus disabled> -->
+        <!-- <input type="text" maxlength="10" minlength="5" name="username" placeholder="نام کاربری" required autofocus> -->
+        <input type="text" name="username" placeholder="نام کاربری" required autofocus>
+        <br />
+        <input type="password" name="password" placeholder="کلمه عبور" required>
+        <br />
+        <button type="submit">ورود</button>
+    </form>
+    <hr />
+    <hr />
+    <form id="public_form" action="">
+        <input id="user_color" type="color" name="user_color" />
+        <br>
+        <input type="email" name="user_email" placeholder="email" />
+        <br>
+        <input type="url" name="user_url" name="" placeholder="url" />
+        <br>
+        <input type="date" name="user_date" name="" />
+        <br>
+        <input type="number" name="score" placeholder="امتیاز" min="0" max="100" step="10">
+        <br>
+        0
+        <input type="range" name="score2" min="0" max="10" step="5">
+        10
+        <br>
+        <input type="file" name="profile_image" accept=".pdf, image/jpeg" multiple>
+        <br>
+        <button type="submit">ذخیره</button>
+    </form>
+</body>
+</html>
