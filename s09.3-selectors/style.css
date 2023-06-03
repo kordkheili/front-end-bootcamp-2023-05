@@ -1,0 +1,35 @@
+/* selecting methods : */
+/*
+    1: html element select
+*/
+body {
+  background-color: red;
+}
+div {
+  color: white;
+}
+
+/*
+    2: by class
+*/
+.btn {
+  background: blue;
+  color: #fff;
+}
+
+/*
+    3: by id
+*/
+#slide1 {
+  width: 700px;
+}
+#slide2 {
+  width: 400px;
+}
+
+/*
+    4: star selector -> select all tags
+*/
+* {
+  background-color: yellow;
+}
