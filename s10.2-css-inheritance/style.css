@@ -1,0 +1,20 @@
+:root {
+  color: darkgreen;
+}
+html {
+  color: purple;
+  font-size: 16px;
+}
+* {
+  border-top: 5px solid #000;
+  font-size: 30px;
+}
+body {
+  color: red;
+}
+section {
+  color: green;
+}
+p {
+  color: blue;
+}
