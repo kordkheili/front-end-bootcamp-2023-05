@@ -7,7 +7,7 @@
 }
 html{
     font-family: Montserrat;
-    font-size: 14px;
+    font-size: 16px;
 }
 body{
     /* background-color: hsl(30, 38%, 92%); */
@@ -44,7 +44,7 @@ button{
 .product-title{
 }
 .product-description{
-    font-size: 12px;
+    font-size: 0.85rem;
     line-height: 22px;
     color: hsl(228, 12%, 48%);
 }
@@ -55,15 +55,15 @@ button{
     margin-top: 10px;
 }
 .product-title h2{
-    font-size: 18px;
+    font-size: 1.28rem;
 }
 .product-category{
-    font-size: 12px;
+    font-size: 0.85rem;
     color: hsl(228, 12%, 48%);
 }
 .off-price{
     color: hsl(158, 36%, 37%);
-    font-size: 36px;
+    font-size: 2.4rem;
     font-weight: bold;
     margin-right: 15px;
 }
