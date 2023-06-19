@@ -1,0 +1,33 @@
+.icon-instagram{
+    color: pink;
+    transition: all 1000ms;
+    font-size: 500px;
+}
+.icon-instagram:hover{
+    color: purple;
+}
+.icon-compare{
+    color: red;
+    transition: all 1000ms;
+    font-size: 500px;
+}
+.icon-compare:hover{
+    color: blue;
+}
+.icon-box{
+    text-align: center;
+
+}
+.icon-box span{
+    font-size: 50px;
+    font-family: verdana;
+}
+.box{
+    width: 200px;
+    height: 100px;
+    background-color: black;
+    transition: all 5s ease-in-out;
+}
+.box:hover{
+    width: 900px;
+}
