@@ -22,7 +22,7 @@ a{
     border: 5px solid #000;
     display: inline-block;
 }
-span,a{
+.box,a{
     display: block;
 }
 nav{
@@ -44,4 +44,50 @@ nav li:hover{
     background-color: aqua;
     border-radius: 0px;
     opacity: 1;
+}
+.sample{
+    height: 50px;
+    width: 200px;
+    border: 3px solid red;
+    display: inline;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.box{
+    width: 400px;
+    height: 300px;
+    background-color: green;
+    display: inline;
+}
+.mylink{
+    width: 400px;
+    height: 300px;
+    background-color: yellow;
+}
+.my-image{
+    width: 600px;
+    display: none;
+}
+.my-image+p{
+    margin-bottom: 1000px;
+}
+.btn{
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: lightcoral;
+    text-align: center;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: aqua;
+}
+.btn-icon{
+    display: none;
+}
+.btn:hover .btn-icon{
+    display: inline-block;
 }
