@@ -1,0 +1,17 @@
+:root{
+    --primary:#999;
+    --secondary:blue;
+    --border-type-1: 2px dashed #7af260;
+    --akse1: url("images/a.jpg")
+}
+#test{
+    --color-warning:yellow;
+}
+html{
+    font-size: 16px;
+}
+button{
+    background-color: var(--primary);
+    border: var(--border-type-1);
+    background-image: var(--akse1);
+}

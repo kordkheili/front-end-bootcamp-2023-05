@@ -4,7 +4,7 @@
 
 [02-HTML](https://docs.google.com/document/d/1-RApkWcj-bu5YKIulUeDpvnZWusg5Ii1bR-yaHaelE4/edit?usp=sharing)
 
-[03-CSS](https://docs.google.com/document/d/1arhU5NvGR5YKFchv_rtq8Bg70TiKsmpNC_kYBl0Eq3M/edit?usp=sharing)
+[03-CSS](https://docs.google.com/document/d/1vrhuUUjoE2VdQ2m8IEs3YqKDcUdInD8YZK90Cr-Lvm0/edit?usp=sharing)
 
 ## References
 
@@ -15,3 +15,4 @@
 | [flaticon.com](https://flaticon.com)                   | کلی آیکن رایگان به صورت عکس              |
 | [codepen.io](https://codepen.io)                       | محبوب ترین سایت به اشتراک گذاری سورس کد  |
 | [frontendmentor.io](https://frontendmentor.io)         | تمرین های عملی جهت تمرین بیشتر فرانت‌اند |
+| [docs.emmet.io](https://docs.emmet.io/cheat-sheet/)         |  Emmet Cheat Sheet      |

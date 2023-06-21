@@ -1,0 +1,27 @@
+body{
+    /* background-color: rgb(255,255,255); */
+    background-color: #FFF;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:visited{
+    color: red;
+}
+a:active{
+   color: yellow; 
+}
+a:hover{
+    color: blue;
+}
+input{
+    color: red;
+    border:2px solid blue;
+    padding: 5px 20px;
+}
+input:focus{
+    border: 2px solid red;
+    border-radius: 20px;
+    outline: none;
+}

@@ -1,0 +1,20 @@
+@font-face{
+    font-family: "nazi";
+    src: url("fonts/nazi.ttf") format("truetype");
+}
+@font-face {
+    font-family: "yekan";
+    src: url('fonts/yekan/Yekan.eot'); /* IE9 Compat Modes */
+    src: url("fonts/yekan/Yekan.ttf") format("truetype"), /* IE6-IE8 */
+        url("fonts/yekan/Yekan.eot?#iefix") format("embedded-opentype"), /* Super Modern Browsers */
+        url("fonts/yekan/Yekan.svg") format("svg"), /* Pretty Modern Browsers */
+        url("fonts/yekan/Yekan.woff") format("woff"), /* Safari, Android, iOS */
+        url("fonts/yekan/Yekan.woff2") format("woff2") /* Legacy iOS */
+    ;
+}
+p.persian-font.font-yekan{
+    font-family: 'yekan';
+}
+p.persian-font.font-nazi{
+    font-family: 'nazi';
+}

@@ -1,0 +1,25 @@
+/* body {
+  background-color: red;
+} */
+.xyz {
+  font-size: 72px;
+  background-color: red !important;
+}
+.xyz {
+  font-weight: bold;
+  background-color: blue;
+}
+
+/* #box {
+  background-color: aquamarine;
+} */
+
+#mamareza {
+  background-color: red;
+}
+.alireza {
+  background-color: blue;
+}
+span {
+  background-color: green;
+}

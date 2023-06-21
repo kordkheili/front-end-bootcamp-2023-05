@@ -1,0 +1,29 @@
+.box3 ul{
+    border: 4px dashed #000;
+}
+.box3>.alireza{
+    background-color: blue;
+}
+.list-item{
+    text-decoration: underline;
+}
+.list-item+li{
+    text-decoration: underline;
+}
+.another-item~li{
+    color:red;
+}
+.box1{
+    color: green;
+}
+.element1{
+    font-weight: bold;
+}
+.box1.element1#test{
+    background-color: yellow;
+}
+.ul-one,.ul-two{
+    background-color: aqua;
+    font-weight:bold;
+    font-size:20px;
+}
