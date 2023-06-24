@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: yellow;
+    font-size: 10px;
+}
+@media all and (min-width: 720px){
+    body{
+        background-color: red;
+        font-size: 30px;
+    }
+}
+@media all and (min-width: 1200px){
+    body{
+        background-color: green;
+        font-size: 50px;
+    }
+}
+
