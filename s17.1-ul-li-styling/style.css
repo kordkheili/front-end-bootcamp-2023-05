@@ -1,0 +1,64 @@
+@font-face {
+    font-family: "yekan";
+    src: url('fonts/yekan/Yekan.eot'); /* IE9 Compat Modes */
+    src: url("fonts/yekan/Yekan.ttf") format("truetype"), /* IE6-IE8 */
+        url("fonts/yekan/Yekan.eot?#iefix") format("embedded-opentype"), /* Super Modern Browsers */
+        url("fonts/yekan/Yekan.svg") format("svg"), /* Pretty Modern Browsers */
+        url("fonts/yekan/Yekan.woff") format("woff"), /* Safari, Android, iOS */
+        url("fonts/yekan/Yekan.woff2") format("woff2") /* Legacy iOS */
+    ;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.top-menu{
+    margin:10px;
+}
+.top-menu li{
+    margin-bottom: 5px;
+    list-style-position: inside;
+    list-style-type: none;
+    position: relative;
+    background-color: lightcoral;
+    border-radius: 20px;
+    padding: 5px;
+    padding-left: 25px;
+}
+
+.top-menu li:hover i{
+    color: red;
+}
+.top-menu li i{
+    color: blue;
+    font-size: 10px;
+    position: absolute;
+    left: 7px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 1000ms;
+}
+.search-bar{
+    position: relative;
+    width: 200px;
+    margin: 10px;
+}
+.search-bar input{
+    background-color: #000;
+    border: none;
+    outline: none;
+    color: #fff;
+    padding: 5px 10px;
+    padding-right: 30px;
+    border-radius: 30px;
+    width: 196px;
+}
+.search-bar i{
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 13px;
+    color: #eb8307;
+}
