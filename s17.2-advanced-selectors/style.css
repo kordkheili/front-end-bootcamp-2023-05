@@ -114,6 +114,3 @@ input:required + label::after{
 a[target="_blank"]{
     background-color: blue;
 }
-a[test="test"].box{
-    text-decoration: underline;
-}
