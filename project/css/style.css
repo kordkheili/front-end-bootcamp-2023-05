@@ -14,4 +14,6 @@
     border: 1px solid #000;
     width: 25%;
     flex-shrink: 0;
+    min-height: 100px;
+    font-size: 3rem;
 }
