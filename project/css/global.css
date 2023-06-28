@@ -1,0 +1,25 @@
+:root{
+    --color-primary:#F18052;
+    --color-primary-rgb: 241, 128, 82;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "yekan";
+    src: url("../fonts/yekan/Yekan.eot"); /* IE9 Compat Modes */
+    src: url("../fonts/yekan/Yekan.ttf") format("truetype"), /* IE6-IE8 */
+        url("../fonts/yekan/Yekan.eot?#iefix") format("embedded-opentype"), /* Super Modern Browsers */
+        url("../fonts/yekan/Yekan.svg") format("svg"), /* Pretty Modern Browsers */
+        url("../fonts/yekan/Yekan.woff") format("woff"), /* Safari, Android, iOS */
+        url("../fonts/yekan/Yekan.woff2") format("woff2") /* Legacy iOS */
+    ;
+}
+html{
+    font-size: 16px;
+}
+body{
+    font-family: "yekan";
+}
