@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: verdana;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+.container{
+    width: 100%;
+    height: 400px;
+    background-color: lightpink;
+}
+.col{
+    width: 24.60%;
+    height: 200px;
+    background-color: aqua;
+    border: 5px solid #000;
+    display: inline-block;
+}
+.box,a{
+    display: block;
+}
+nav{
+    padding: 20px;
+    background-color: #ccc;
+}
+nav li{
+    display: inline-block;
+    margin-right: 20px;
+    background-color: lightcoral;
+    padding: 0px 20px;
+    border-radius: 10px;
+    opacity: 0.8;
+    transition: all 500ms;
+    height: 40px;
+    line-height: 40px;
+}
+nav li:hover{
+    background-color: aqua;
+    border-radius: 0px;
+    opacity: 1;
+}
+.sample{
+    height: 50px;
+    width: 200px;
+    border: 3px solid red;
+    display: inline;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.box{
+    width: 400px;
+    height: 300px;
+    background-color: green;
+    display: inline;
+}
+.mylink{
+    width: 400px;
+    height: 300px;
+    background-color: yellow;
+}
+.my-image{
+    width: 600px;
+    display: none;
+}
+.my-image+p{
+    margin-bottom: 1000px;
+}
+.btn{
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: lightcoral;
+    text-align: center;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: aqua;
+}
+.btn-icon{
+    display: none;
+}
+.btn:hover .btn-icon{
+    display: inline-block;
+}
