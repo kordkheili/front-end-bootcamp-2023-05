@@ -73,18 +73,10 @@ const user2 = {
   isMale: false,
 };
 console.log(user1);
+console.log(user2);
 const xiaomi_phone = {
-  vazn: "181 gr",
-  andaze: "70*100*20",
-  specialFeatures: [
-    "مجهز به حس‌گر اثرانگشت",
-    "مناسب عکاسی",
-    "مناسب عکاسی سلفی",
-  ],
-  test: {
-    prop1: "value1",
-    prop2: "value2",
-    prop3: true,
-    prop4: [1, 6, 5],
-  },
+  vazn: "181",
+  andaze: "1000x200",
+  specialFeatures: ["مجهز به حس‌گر اثرانگشت", "مناسب عکاسی"],
 };
+console.log(xiaomi_phone);
