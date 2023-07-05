@@ -1,19 +1,63 @@
-#projects{
-    background-color: #999;
-    text-align: center;
+#projects {
+  background-color: #999;
+  text-align: center;
 }
-.section-title{
-    padding: 40px 0px;
-    font-size: 2rem;
+.section-title {
+  padding: 40px 0px;
+  font-size: 2rem;
 }
-.projects-container{
-    display: flex;
-    flex-wrap: wrap;
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
 }
-.project-card{
-    border: 1px solid #000;
-    width: 25%;
-    flex-shrink: 0;
-    min-height: 100px;
-    font-size: 3rem;
+.project-card {
+  border: 1px solid #000;
+  width: 25%;
+  flex-shrink: 0;
+  min-height: 100px;
+  font-size: 3rem;
+}
+nav > ul {
+  display: flex;
+}
+nav > ul > li {
+  list-style-type: none;
+  border: 1px solid #000;
+  margin: 10px;
+  padding: 0px 10px;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+nav > ul > li:hover {
+  background-color: orangered;
+  color: #fff;
+}
+nav > ul > li:hover .dropdown-container {
+  display: block;
+}
+.dropdown-container {
+  position: absolute;
+  background-color: #fff;
+  right: -1px;
+  top: 100%;
+  z-index: 99;
+  display: none;
+}
+.dropdown-container ul {
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+  border-top: 2px solid orangered;
+}
+.dropdown-container li {
+  list-style-type: none;
+  padding: 0px 20px;
+  cursor: pointer;
+  transition: all 0.5s;
+  color: #000;
+}
+.dropdown-container li:hover {
+  background-color: orangered;
+  color: #fff;
 }
