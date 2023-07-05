@@ -60,23 +60,3 @@ console.log(users[4]);
 // nested arrays
 const nestedArray = ["alireza", [4236, 3256, [true, false, "morteza"]]];
 console.log(nestedArray);
-
-// object
-const user1 = {
-  firstname: "alireza",
-  lastname: "mohamadi",
-  isMale: true,
-};
-const user2 = {
-  firstname: "maryam",
-  lastname: "rezaie",
-  isMale: false,
-};
-console.log(user1);
-console.log(user2);
-const xiaomi_phone = {
-  vazn: "181",
-  andaze: "1000x200",
-  specialFeatures: ["مجهز به حس‌گر اثرانگشت", "مناسب عکاسی"],
-};
-console.log(xiaomi_phone);
