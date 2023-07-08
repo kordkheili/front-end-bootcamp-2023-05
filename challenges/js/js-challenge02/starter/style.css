@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: tahoma;
+}
+#app {
+  min-height: 400px;
+  width: 50%;
+  position: absolute;
+  right: 50%;
+  top: 50%;
+  transform: translate(50%, -50%);
+  background-color: antiquewhite;
+  border-radius: 50px;
+  border: 2px solid lightsalmon;
+  padding: 50px;
+  font-size: 32px;
+}
