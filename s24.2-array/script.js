@@ -32,3 +32,26 @@ console.log(myFish);
 console.log(removed_item);
 myFish.pop();
 console.log(myFish);
+
+//slice
+const posts = [
+  "post1",
+  "post2",
+  "post3",
+  "post4",
+  "post5",
+  "post6",
+  "post7",
+  "post8",
+  "post9",
+  "post10",
+];
+console.log(posts.slice(0, 5));
+
+//indexOf (search in array)
+console.log(users);
+console.log(users.indexOf("asqar"));
+console.log(posts.indexOf("post7"));
+
+//include (search in array)
+console.log(posts.includes("post11"));

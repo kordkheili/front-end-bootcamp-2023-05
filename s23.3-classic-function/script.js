@@ -36,13 +36,19 @@ const d = minus(input1, input2);
 console.log(d);
 console.log(sum2(2, 6)); */
 
-function checkScore(score) {
-  let natije = score > 70 ? "passed" : "failed";
-  return natije;
-}
 const user1_result = checkScore(100);
 const user2_result = checkScore(70);
 const user3_result = checkScore(50);
 console.log("user1_result", user1_result);
 console.log("user2_result", user2_result);
 console.log("user3_result", user3_result);
+
+function checkScore(score) {
+  let natije = score > 70 ? "passed" : "failed";
+  return natije;
+}
+
+/* const checkScore = (score) => {
+  let natije = score > 70 ? "passed" : "failed";
+  return natije;
+}; */
