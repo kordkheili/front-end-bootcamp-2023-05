@@ -37,7 +37,7 @@ console.log(d);
 console.log(sum2(2, 6)); */
 
 function checkScore(score) {
-  let natije = 50 > 70 ? "passed" : "failed";
+  let natije = score > 70 ? "passed" : "failed";
   return natije;
 }
 const user1_result = checkScore(100);

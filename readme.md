@@ -1,6 +1,8 @@
 ## Slides
 
 [Web Development Fundamentals](https://docs.google.com/presentation/d/1So3B319k9YpjutCm2YmTk8JBRG5zGhSAU3okY726Vuw/edit?usp=sharing)
+[CSS](https://mm.tt/app/map/2827455013?t=Lmjv2cmPp1)
+[JS](https://mm.tt/app/map/2852545263?t=Jqy2FYeyvZ)
 
 ## References
 
