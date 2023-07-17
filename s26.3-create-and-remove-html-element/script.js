@@ -42,3 +42,26 @@ const users = [
     avatar: "https://reqres.in/img/faces/12-image.jpg",
   },
 ];
+
+const user_list_element = document.getElementById("user-list");
+let final = ``;
+users.forEach(function (user) {
+  const user_card_element = `
+  <div class="user-card col">
+    <div class="card">
+      <div class="card-image">
+        <img
+          src="${user.avatar}"
+          class="card-img-top"
+        />
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">${user.first_name} ${user.last_name}</h5>
+        <p class="card-text">${user.email}</p>
+      </div>
+    </div>
+  </div>
+`;
+  final = final + user_card_element;
+});
+user_list_element.innerHTML = final;
