@@ -19,7 +19,7 @@
 | [fakestoreapi.com](https://fakestoreapi.com/)          | Online API: Online Store                 |
 | [apiip.net](https://apiip.net/)                        | Online API: Locate IP                    |
 | [geocode.xyz](https://geocode.xyz/)                    | Online API: Geo Data                     |
-| [aos.js](https://michalsnik.github.io/aos/)            | Library: Animate On Scroll               |
-| [isotope.js](https://isotope.metafizzy.co/)            | Library: Filter & sort                   |
 | [swiper.js](https://swiperjs.com/)                     | Library: Slider                          |
 | [chart.js](https://chartjs.org/)                       | Library: charting library                |
+| [isotope.js](https://isotope.metafizzy.co/)            | Library: Filter & sort                   |
+| [aos.js](https://michalsnik.github.io/aos/)            | Library: Animate On Scroll               |
