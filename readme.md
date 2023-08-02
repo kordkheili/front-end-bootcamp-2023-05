@@ -16,7 +16,9 @@
 | [codepen.io](https://codepen.io)                       | محبوب ترین سایت به اشتراک گذاری سورس کد  |
 | [frontendmentor.io](https://frontendmentor.io)         | تمرین های عملی جهت تمرین بیشتر فرانت‌اند |
 | [docs.emmet.io](https://docs.emmet.io/cheat-sheet/)    | Emmet Cheat Sheet                        |
-| [fakestoreapi.com](https://fakestoreapi.com/)          | Fake API for Online Store                |
+| [fakestoreapi.com](https://fakestoreapi.com/)          | Online API: Online Store                 |
+| [apiip.net](https://apiip.net/)                        | Online API: Locate IP                    |
+| [geocode.xyz](https://geocode.xyz/)                    | Online API: Geo Data                     |
 | [aos.js](https://michalsnik.github.io/aos/)            | Library: Animate On Scroll               |
 | [isotope.js](https://isotope.metafizzy.co/)            | Library: Filter & sort                   |
 | [swiper.js](https://swiperjs.com/)                     | Library: Slider                          |
