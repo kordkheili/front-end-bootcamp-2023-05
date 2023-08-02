@@ -16,4 +16,7 @@
 | [codepen.io](https://codepen.io)                       | محبوب ترین سایت به اشتراک گذاری سورس کد  |
 | [frontendmentor.io](https://frontendmentor.io)         | تمرین های عملی جهت تمرین بیشتر فرانت‌اند |
 | [docs.emmet.io](https://docs.emmet.io/cheat-sheet/)    | Emmet Cheat Sheet                        |
-| [fakestoreapi.com](fakestoreapi.com/)                  | Fake API for Online Store                |
+| [fakestoreapi.com](https://fakestoreapi.com/)          | Fake API for Online Store                |
+| [aos.js](https://michalsnik.github.io/aos/)            | Library: Animate On Scroll               |
+| [isotope.js](https://isotope.metafizzy.co/)            | Library: Filter & sort                   |
+| [swiper.js](https://swiperjs.com/)                     | Library: Slider                          |
