@@ -20,3 +20,4 @@
 | [aos.js](https://michalsnik.github.io/aos/)            | Library: Animate On Scroll               |
 | [isotope.js](https://isotope.metafizzy.co/)            | Library: Filter & sort                   |
 | [swiper.js](https://swiperjs.com/)                     | Library: Slider                          |
+| [chart.js](https://www.chartjs.org/)                   | Library: charting library                |
