@@ -85,6 +85,7 @@ class Car {
   getModel() {
     return this.model;
   }
+  predictWeather() {}
   getBrand() {
     return this.brand;
   }
@@ -109,7 +110,6 @@ console.log(car1.getBrand());
 console.log(car1.getColor());
 car1.setColor("red");
 console.log(car1.getColor());
-
 class Teacher extends Person {
   //properties
   courses;
