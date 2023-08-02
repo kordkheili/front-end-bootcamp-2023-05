@@ -16,3 +16,4 @@
 | [codepen.io](https://codepen.io)                       | محبوب ترین سایت به اشتراک گذاری سورس کد  |
 | [frontendmentor.io](https://frontendmentor.io)         | تمرین های عملی جهت تمرین بیشتر فرانت‌اند |
 | [docs.emmet.io](https://docs.emmet.io/cheat-sheet/)    | Emmet Cheat Sheet                        |
+| [fakestoreapi.com](fakestoreapi.com/)                  | Fake API for Online Store                |
