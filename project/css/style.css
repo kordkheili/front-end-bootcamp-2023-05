@@ -1,6 +1,10 @@
+/* :root{
+  --color1 : #fa3;
+} */
 #projects {
   background-color: #999;
   text-align: center;
+  /* background:var(--color1); */
 }
 .section-title {
   padding: 40px 0px;
@@ -60,4 +64,46 @@ nav > ul > li:hover .dropdown-container {
 .dropdown-container li:hover {
   background-color: orangered;
   color: #fff;
+}
+.swiper {
+  width: 100%;
+  height: max-content;
+}
+.swiper img {
+  width: 100%;
+  aspect-ratio: 24/5;
+}
+.my-container {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  color: #fff;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  background: rgba(0, 0, 0, 0.5);
+  width: 45px;
+  transition: all 500ms;
+}
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 20px;
+}
+.swiper-button-next {
+  left: 0 !important;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.swiper-button-prev {
+  right: 0 !important;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.swiper-button-next:hover {
+  background: rgba(0, 0, 0, 0.8) !important;
+}
+.swiper-button-prev:hover {
+  background: rgba(0, 0, 0, 0.8) !important;
 }
