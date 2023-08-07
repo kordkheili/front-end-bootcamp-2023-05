@@ -65,6 +65,8 @@ nav > ul > li:hover .dropdown-container {
   background-color: orangered;
   color: #fff;
 }
+
+/*swiper:start=========================>*/
 .swiper {
   width: 100%;
   height: max-content;
@@ -107,3 +109,4 @@ nav > ul > li:hover .dropdown-container {
 .swiper-button-prev:hover {
   background: rgba(0, 0, 0, 0.8) !important;
 }
+/*swiper:end=========================>*/
