@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.row {
+  margin: 10px 0;
+}
+.row > div {
+  padding: 10px;
+  border: 1px solid #000;
+}
