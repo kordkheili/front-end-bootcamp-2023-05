@@ -23,3 +23,7 @@
 | [chart.js](https://chartjs.org/)                       | Library: charting library                |
 | [isotope.js](https://isotope.metafizzy.co/)            | Library: Filter & sort                   |
 | [aos.js](https://michalsnik.github.io/aos/)            | Library: Animate On Scroll               |
+
+# Final Project
+
+[UI (figma)](<https://www.figma.com/file/aRHAnSYSU13xO0M7mvAx3w/Nike-UI---Free-UI-Kit-(Recreated)-(Community)?type=design&mode=design&t=78t3PcwBFb8WEelB-1>)
