@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.btn {
+  padding: 10px 20px;
+  background-color: aquamarine;
+}
+.view-wrapper {
+  width: 100%;
+  background-color: #fff;
+  height: 100vh;
+  text-align: center;
+  font-size: 36px;
+}
