@@ -12,6 +12,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
     />
+    <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/global.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/media.css" />
@@ -44,14 +45,66 @@
           <!-- Additional required wrapper -->
           <div class="swiper-wrapper">
             <!-- Slides -->
-            <div class="swiper-slide">
-              <img src="images/slide1.webp" />
+            <div
+              class="swiper-slide"
+              style="background-image: url('images/hero-slide.jpg')"
+            >
+              <div class="slider-description p-4">
+                <div class="row gy-2">
+                  <div class="col-12">
+                    <span class="h4 fw-bold"> welcome </span>
+                  </div>
+                  <div class="col-12">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Ipsa, optio sint quaerat sit, perspiciatis nulla alias
+                      veritatis voluptatum accusantium temporibus unde aperiam
+                      magni eligendi numquam excepturi ea enim dolore doloribus.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="swiper-slide"
+              style="
+                background-image: url('images/hero-slide-2.jpg');
+                background-position: center bottom;
+              "
+            >
+              <div class="slider-description p-4">
+                <div class="row gy-2">
+                  <div class="col-12">
+                    <span class="h4 fw-bold"> slide 2 </span>
+                  </div>
+                  <div class="col-12">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Ipsa, optio sint quuam excepturi ea enim dolore doloribus.
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
             <div class="swiper-slide">
-              <img src="images/slide2.webp" />
-            </div>
-            <div class="swiper-slide">
-              <img src="images/slide3.webp" />
+              <video class="bg-video" muted autoplay loop playsinline>
+                <source src="videos/1.mp4" type="video/mp4" />
+                <source src="videos/1.webm" type="video/webm" />
+                Your browser does not support the video tag.
+              </video>
+              <div class="slider-description p-4">
+                <div class="row gy-2">
+                  <div class="col-12">
+                    <span class="h4 fw-bold"> slide 2 </span>
+                  </div>
+                  <div class="col-12">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Ipsa, optio sint quuam excepturi ea enim dolore doloribus.
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           <!-- If we need pagination -->
@@ -124,5 +177,6 @@
         },
       });
     </script>
+    <script src="js/script.js"></script>
   </body>
 </html>

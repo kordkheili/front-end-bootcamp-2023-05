@@ -69,11 +69,13 @@ nav > ul > li:hover .dropdown-container {
 /*swiper:start=========================>*/
 .swiper {
   width: 100%;
-  height: max-content;
+  height: 500px;
 }
-.swiper img {
-  width: 100%;
-  aspect-ratio: 24/5;
+.swiper-slide {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  position: relative;
 }
 .my-container {
   max-width: 1920px;
@@ -110,3 +112,17 @@ nav > ul > li:hover .dropdown-container {
   background: rgba(0, 0, 0, 0.8) !important;
 }
 /*swiper:end=========================>*/
+.bg-video {
+  height: auto;
+  width: 100%;
+}
+
+.slider-description {
+  position: absolute;
+  width: 400px;
+  background-color: #fff;
+  left: 5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 0.8;
+}
