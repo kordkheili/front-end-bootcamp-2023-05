@@ -1,9 +1,6 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-.row > div {
-  border: 1px solid #000;
-  padding: 1rem;
+.box {
+  height: 100px;
+  border: 2px solid #000;
+  text-align: center;
+  line-height: 100px;
 }
