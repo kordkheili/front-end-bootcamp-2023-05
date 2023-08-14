@@ -10,7 +10,7 @@
     />
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+      href="assets/plugins/swiperjs/swiper-bundle.min.css"
     />
     <link rel="stylesheet" href="assets/css/bootstrap.css" />
     <link rel="stylesheet" href="assets/css/global.css" />
@@ -21,23 +21,58 @@
 
   <body>
     <header>
-      <nav>
-        <ul>
-          <li>صفحه اصلی</li>
-          <li>
-            <span>خدمات ما</span>
-            <div class="dropdown-container">
+      <div class="container">
+        <div class="row"></div>
+        <div class="row"></div>
+        <div class="row justify-content-center align-items-center">
+          <div class="col-auto">
+            <nav>
               <ul>
-                <li>خدمت اول</li>
-                <li>خدمت دوم</li>
-                <li>خدمت سوم</li>
+                <li class="active">
+                  <a href="#"> صفحه اصلی </a>
+                </li>
+                <li>
+                  <a href="#">خدمات ما</a>
+                  <i class="fa-solid fa-caret-down"></i>
+                  <div class="dropdown-container">
+                    <ul>
+                      <li>
+                        <a href="#"> خدمت اول </a>
+                      </li>
+                      <li>
+                        <a href="#"> خدمت دوم </a>
+                      </li>
+                      <li>
+                        <a href="#"> خدمت سوم </a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li>
+                  <a href="#">درباره ما</a>
+                </li>
+                <li>
+                  <a href="#">تماس با ما</a>
+                </li>
               </ul>
-            </div>
-          </li>
-          <li>درباره ما</li>
-          <li>تماس با ما</li>
-        </ul>
-      </nav>
+            </nav>
+          </div>
+          <div class="col-auto">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-search"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
     </header>
     <section id="hero-section">
       <div class="my-container">
@@ -47,7 +82,7 @@
             <!-- Slides -->
             <div
               class="swiper-slide"
-              style="background-image: url('images/hero-slide.jpg')"
+              style="background-image: url('assets/images/hero-slide.jpg')"
             >
               <div class="slider-description p-4">
                 <div class="row gy-2">
@@ -67,7 +102,7 @@
             <div
               class="swiper-slide"
               style="
-                background-image: url('images/hero-slide-2.jpg');
+                background-image: url('assets/images/hero-slide-2.jpg');
                 background-position: center bottom;
               "
             >
@@ -87,8 +122,8 @@
             </div>
             <div class="swiper-slide">
               <video class="bg-video" muted autoplay loop playsinline>
-                <source src="videos/1.mp4" type="video/mp4" />
-                <source src="videos/1.webm" type="video/webm" />
+                <source src="assets/videos/1.mp4" type="video/mp4" />
+                <source src="assets/videos/1.webm" type="video/webm" />
                 Your browser does not support the video tag.
               </video>
               <div class="slider-description p-4">
@@ -121,6 +156,181 @@
           <!-- If we need scrollbar -->
           <div class="swiper-scrollbar"></div>
         </div>
+      </div>
+    </section>
+    <section id="ourteam" class="my-5">
+      <div class="container">
+        <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="team-person-box">
+              <div class="row gy-3 flex-column align-content-center justify-content-center">
+                <div class="col">
+                  <img class="person-image" src="assets/images/1.jpg" alt="">
+                </div>
+                <div class="col">
+                  <div class="row flex-column align-items-center">
+                    <div class="col-auto">
+                      <span class="fw-bold h4">
+                        فرزاد استاجی
+                      </span>
+                    </div>
+                    <div class="col-auto">
+                      <span class="person-job-position">
+                        مدیر عامل
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="team-person-box">
+              <div class="row gy-3 flex-column align-content-center justify-content-center">
+                <div class="col">
+                  <img class="person-image" src="assets/images/2.jpg" alt="">
+                </div>
+                <div class="col">
+                  <div class="row flex-column align-items-center">
+                    <div class="col-auto">
+                      <span class="fw-bold h4">
+                        صالح جدی
+                      </span>
+                    </div>
+                    <div class="col-auto">
+                      <span class="person-job-position">
+                        مدیر محصول
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>  
+          <div class="swiper-slide">
+            <div class="team-person-box">
+              <div class="row gy-3 flex-column align-content-center justify-content-center">
+                <div class="col">
+                  <img class="person-image" src="assets/images/3.jpg" alt="">
+                </div>
+                <div class="col">
+                  <div class="row flex-column align-items-center">
+                    <div class="col-auto">
+                      <span class="fw-bold h4">
+                        مهدی کارگر
+                      </span>
+                    </div>
+                    <div class="col-auto">
+                      <span class="person-job-position">
+                        مدیر مالی
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="team-person-box">
+              <div class="row gy-3 flex-column align-content-center justify-content-center">
+                <div class="col">
+                  <img class="person-image" src="assets/images/4.jpg" alt="">
+                </div>
+                <div class="col">
+                  <div class="row flex-column align-items-center">
+                    <div class="col-auto">
+                      <span class="fw-bold h4">
+                        علیرضا محمدی
+                      </span>
+                    </div>
+                    <div class="col-auto">
+                      <span class="person-job-position">
+                        مدیر مارکتینگ
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="team-person-box">
+              <div class="row gy-3 flex-column align-content-center justify-content-center">
+                <div class="col">
+                  <img class="person-image" src="assets/images/1.jpg" alt="">
+                </div>
+                <div class="col">
+                  <div class="row flex-column align-items-center">
+                    <div class="col-auto">
+                      <span class="fw-bold h4">
+                        داریوش وهاب
+                      </span>
+                    </div>
+                    <div class="col-auto">
+                      <span class="person-job-position">
+                        مدیر فنی
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="team-person-box">
+              <div class="row gy-3 flex-column align-content-center justify-content-center">
+                <div class="col">
+                  <img class="person-image" src="assets/images/3.jpg" alt="">
+                </div>
+                <div class="col">
+                  <div class="row flex-column align-items-center">
+                    <div class="col-auto">
+                      <span class="fw-bold h4">
+                        فرزاد استاجی
+                      </span>
+                    </div>
+                    <div class="col-auto">
+                      <span class="person-job-position">
+                        مدیر مارکتینگ
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="team-person-box">
+              <div class="row gy-3 flex-column align-content-center justify-content-center">
+                <div class="col">
+                  <img class="person-image" src="assets/images/2.jpg" alt="">
+                </div>
+                <div class="col">
+                  <div class="row flex-column align-items-center">
+                    <div class="col-auto">
+                      <span class="fw-bold h4">
+                        علیرضا محمدی
+                      </span>
+                    </div>
+                    <div class="col-auto">
+                      <span class="person-job-position">
+                        مدیر مارکتینگ
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
       </div>
     </section>
     <section id="projects">
@@ -157,9 +367,9 @@
     </section>
     <script src="assets/plugins/tabbar/tab-script.js"></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="assets/plugins/swiperjs/swiper-bundle.min.js"></script>
     <script>
-      const swiper = new Swiper(".swiper", {
+      const hero_swiper = new Swiper("#hero-section .swiper", {
         // Optional parameters
         direction: "horizontal",
         loop: true,
@@ -180,7 +390,46 @@
           el: ".swiper-scrollbar",
         },
       });
-    </script>
+      const ourteam_swiper = new Swiper('#ourteam .swiper', {
+        // Optional parameters
+        direction: 'horizontal',
+        slidesPerView: 2,
+        spaceBetween: 20,
+        loop: false,
+        grabCursor:true,
+        breakpoints: {
+          // when window width is >= 576px
+          576: {
+            slidesPerView: 2,
+            spaceBetween: 20
+          },
+          // when window width is >= 768px
+          768: {
+            slidesPerView: 3,
+            spaceBetween: 20
+          },
+          // when window width is >= 992px
+          992: {
+            slidesPerView: 3,
+            spaceBetween: 20
+          },
+          // when window width is >= 1200px
+          1200: {
+            slidesPerView: 4,
+            spaceBetween: 20
+          },
+          // when window width is >= 1400px
+          1400: {
+            slidesPerView: 6,
+            spaceBetween: 20
+          },
+        },
+        // Navigation arrows
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+      });    </script>
     <script src="assets/js/script.js"></script>
   </body>
 </html>
