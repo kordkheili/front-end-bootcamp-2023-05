@@ -164,3 +164,30 @@ nav > ul > li:hover .dropdown-container {
 #ourteam .person-job-position{
   color:var(--color-primary);
 }
+
+/*BEGIN::SEARCH-BOX======================================*/
+.search-box{
+  position: absolute;
+  width:70%;
+  transform:translateX(50%);
+  height:100%;
+  background-color:#FFF;
+  z-index:999;
+  top:0;
+  right:50%;
+  display:none;
+}
+.search-box.active{
+  display:block;
+}
+#close-search-box,#open-search-box{
+  cursor: pointer;
+}
+#header-search-box input[type='text']{
+  border:none;
+  font-size:1.3rem;
+}
+#header-search-box input[type='text']:focus{
+  outline: none;
+}
+/*END::SEARCH-BOX======================================*/
